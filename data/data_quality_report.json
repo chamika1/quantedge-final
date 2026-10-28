@@ -1,0 +1,120 @@
+{
+  "tickers": {
+    "SPY": {
+      "rows_raw": 4987,
+      "first": "2007-01-03",
+      "last": "2026-10-28"
+    },
+    "EFA": {
+      "rows_raw": 4987,
+      "first": "2007-01-03",
+      "last": "2026-10-28"
+    },
+    "EEM": {
+      "rows_raw": 4987,
+      "first": "2007-01-03",
+      "last": "2026-10-28"
+    },
+    "AGG": {
+      "rows_raw": 4987,
+      "first": "2007-01-03",
+      "last": "2026-10-28"
+    },
+    "GLD": {
+      "rows_raw": 4987,
+      "first": "2007-01-03",
+      "last": "2026-10-28"
+    },
+    "XLE": {
+      "rows_raw": 4987,
+      "first": "2007-01-03",
+      "last": "2026-10-28"
+    },
+    "XLK": {
+      "rows_raw": 4987,
+      "first": "2007-01-03",
+      "last": "2026-10-28"
+    }
+  },
+  "calendar": {
+    "rows_union_calendar": 4987,
+    "rows_aligned": 4987,
+    "rows_dropped_by_alignment": 0,
+    "start": "2007-01-03",
+    "end": "2026-10-28"
+  },
+  "flags": {
+    "SPY": {
+      "zero_change_days_flagged": 13,
+      "extreme_jump_days_flagged": 0,
+      "extreme_jump_dates": []
+    },
+    "EFA": {
+      "zero_change_days_flagged": 36,
+      "extreme_jump_days_flagged": 0,
+      "extreme_jump_dates": []
+    },
+    "EEM": {
+      "zero_change_days_flagged": 34,
+      "extreme_jump_days_flagged": 0,
+      "extreme_jump_dates": []
+    },
+    "AGG": {
+      "zero_change_days_flagged": 68,
+      "extreme_jump_days_flagged": 0,
+      "extreme_jump_dates": []
+    },
+    "GLD": {
+      "zero_change_days_flagged": 14,
+      "extreme_jump_days_flagged": 0,
+      "extreme_jump_dates": []
+    },
+    "XLE": {
+      "zero_change_days_flagged": 23,
+      "extreme_jump_days_flagged": 0,
+      "extreme_jump_dates": []
+    },
+    "XLK": {
+      "zero_change_days_flagged": 52,
+      "extreme_jump_days_flagged": 0,
+      "extreme_jump_dates": []
+    }
+  },
+  "adf_log_returns": {
+    "SPY": {
+      "adf_stat": -15.907,
+      "p_value": 8.198510867593484e-29,
+      "stationary_at_5pct": true
+    },
+    "EFA": {
+      "adf_stat": -15.476,
+      "p_value": 2.5910739870229383e-28,
+      "stationary_at_5pct": true
+    },
+    "EEM": {
+      "adf_stat": -13.252,
+      "p_value": 8.731326906376406e-25,
+      "stationary_at_5pct": true
+    },
+    "AGG": {
+      "adf_stat": -15.046,
+      "p_value": 9.42769435832983e-28,
+      "stationary_at_5pct": true
+    },
+    "GLD": {
+      "adf_stat": -71.481,
+      "p_value": 0.0,
+      "stationary_at_5pct": true
+    },
+    "XLE": {
+      "adf_stat": -74.968,
+      "p_value": 0.0,
+      "stationary_at_5pct": true
+    },
+    "XLK": {
+      "adf_stat": -17.664,
+      "p_value": 3.6714101391634576e-30,
+      "stationary_at_5pct": true
+    }
+  }
+}
